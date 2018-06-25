@@ -1,0 +1,36 @@
+
+
+
+Activity 1:
+
+
+Activity 2:
+
+
+
+Activity 3:
+
+Activity 4:
+
+Activity 5: DockerFile
+docker run -ti ubuntu:latest bash
+apt-get update
+apt-get install -y figlet
+figlet "Hello, Docker"
+exit
+docker ps -a
+docker container commit <CONTAINER_ID>
+docker images
+docker image tag <IMAGE_ID> ourfiglet
+docker images
+docker run ourfiglet hello
+docker container run ourfiglet figlet "Hello, World"
+
+
+Activity 6: DockerFile
+
+
+Activity 7: Docker Compose
+
+
+Activity 8: Docker Swarm Demo
